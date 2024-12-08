@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <style>
+    path, text {
+      fill: white;
+    }
+  </style>
+  <path d="M250 50c-27.6 0-50 22.4-50 50v50h100v-50c0-27.6-22.4-50-50-50zm-25 100v25h50v-25h-50z"/>
+  <path d="M200 150h100v50H200z"/>
+  <text x="50" y="350" font-family="Arial Black" font-size="120" font-weight="bold">TDA</text>
+  <text x="50" y="450" font-family="Arial" font-size="60">ENTERPRISES</text>
+</svg>
