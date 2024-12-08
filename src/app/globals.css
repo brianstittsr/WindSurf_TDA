@@ -28,6 +28,41 @@ body {
   transition-duration: 150ms;
 }
 
+/* Prose styles for content */
+.prose {
+  max-width: 65ch;
+  margin: 0 auto;
+}
+
+.prose.prose-invert {
+  color: white;
+}
+
+.prose p {
+  margin-bottom: 1.5em;
+  line-height: 1.75;
+}
+
+.prose h1, .prose h2, .prose h3 {
+  color: white;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.prose h1 {
+  font-size: 2.25em;
+}
+
+.prose h2 {
+  font-size: 1.875em;
+}
+
+.prose h3 {
+  font-size: 1.5em;
+}
+
 /* Radix UI Navigation Menu styles */
 .NavigationMenuRoot {
   position: relative;
