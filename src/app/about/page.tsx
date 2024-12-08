@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '@/components/Header';
 import Image from 'next/image';
+import CeoCard from '@/components/CeoCard';
 
 export default function About() {
   return (
@@ -84,6 +85,27 @@ export default function About() {
                 Contact Us
               </a>
             </div>
+          </div>
+
+          <div className="max-w-4xl mx-auto mt-20">
+            <CeoCard />
+          </div>
+          <div className="prose prose-invert max-w-none mt-12">
+            <p className="text-lg mb-6">
+              TDA Enterprises is a leading provider of environmental health and safety solutions, 
+              dedicated to creating safer workplaces and communities through comprehensive training, 
+              consulting, and support services.
+            </p>
+            <p className="text-lg mb-6">
+              Our mission is to empower organizations with the knowledge and tools they need to 
+              maintain the highest standards of safety and environmental compliance while fostering 
+              a culture of continuous improvement.
+            </p>
+            <p className="text-lg">
+              With years of industry experience and a commitment to excellence, we partner with 
+              businesses of all sizes to develop and implement effective safety programs that protect 
+              their most valuable assets - their people.
+            </p>
           </div>
         </div>
       </div>
